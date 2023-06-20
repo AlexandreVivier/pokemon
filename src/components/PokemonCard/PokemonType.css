@@ -29,7 +29,8 @@
 
 .electric img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 
@@ -46,7 +47,8 @@
 
 .fire img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -62,7 +64,8 @@
 
 .grass img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -78,7 +81,8 @@
 
 .water img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -94,7 +98,8 @@
 
 .rock img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -110,7 +115,8 @@
 
 .ground img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -126,7 +132,8 @@
 
 .ice img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -142,7 +149,8 @@
 
 .flying img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -158,7 +166,8 @@
 
 .bug img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -174,7 +183,8 @@
 
 .fighting img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -190,7 +200,8 @@
 
 .ghost img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -206,7 +217,8 @@
 
 .poison img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -222,7 +234,8 @@
 
 .psychic img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -238,7 +251,8 @@
 
 .dragon img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -255,7 +269,8 @@
 
 .steel img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -271,7 +286,8 @@
 
 .dark img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
@@ -287,7 +303,8 @@
 
 .fairy img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;;
     width: 35px;
     height: 35px;
 }
@@ -303,7 +320,8 @@
 
 .normal img {
     position: relative;
-    bottom: 10px;
+    bottom: 13px;
+    right: 1px;
     width: 35px;
     height: 35px;
 }
