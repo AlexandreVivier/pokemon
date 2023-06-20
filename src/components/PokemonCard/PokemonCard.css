@@ -9,6 +9,7 @@
   z-index: 1;
   margin-bottom: 20px;
   cursor: pointer;
+  box-sizing: content-box ;
   transition: 0.3s;
 }
 
@@ -24,6 +25,11 @@
   width: 100px;
   height: 100px;
   margin-top: 20px;
+}
+
+.cardContent h3{
+position: relative;
+top: 5px;
 }
 
 .tools {
@@ -58,5 +64,8 @@
 }
 
 .types {
+  position: relative;
+  top: 20px;
+  gap: 10px;
   display: flex;
 }
