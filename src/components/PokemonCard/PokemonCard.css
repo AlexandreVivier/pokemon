@@ -9,6 +9,7 @@
   z-index: 1;
   margin-bottom: 20px;
   cursor: pointer;
+  box-sizing: content-box ;
   transition: 0.3s;
 }
 
