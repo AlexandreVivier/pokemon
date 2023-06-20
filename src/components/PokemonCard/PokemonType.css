@@ -1,0 +1,309 @@
+.shadow {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.511);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.shadow-pkm {
+    filter: contrast(0%) blur(5px) brightness(0.25) opacity(50%);
+    position: absolute;
+    top: 5px;
+    left: 54px;
+    z-index: -3;
+
+
+}
+
+/* TYPES DE POKEMONS : */
+
+
+.electric {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.electric img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+
+}
+
+.fire {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.fire img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.grass {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.grass img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.water {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.water img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.rock {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.rock img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.ground {
+    width: 50px;
+    height: 50px;
+    background-color: coral;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.ground img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.ice {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.ice img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.flying {
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.flying img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.bug {
+    width: 50px;
+    height: 50px;
+    background-color: khaki;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.bug img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.fighting {
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.fighting img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.ghost {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.ghost img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.poison {
+    width: 50px;
+    height: 50px;
+    background-color: olive;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.poison img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.psychic {
+    width: 50px;
+    height: 50px;
+    background-color: darkmagenta;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.psychic img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.dragon {
+    width: 50px;
+    height: 50px;
+    background-color: chocolate;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.dragon img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.steel {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+    background: rgb(125, 124, 141);
+    background: linear-gradient(90deg, rgba(125, 124, 141, 1) 23%, rgba(232, 232, 248, 1) 41%, rgba(124, 135, 137, 1) 70%);
+}
+
+.steel img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.dark {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+    background-color: black;
+    border-radius: 50%;
+}
+
+.dark img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.fairy {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.fairy img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.normal {
+    width: 50px;
+    height: 50px;
+    background-color: cornsilk;
+    border-radius: 50%;
+    border: 2px solid rgb(226, 217, 217);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+}
+
+.normal img {
+    position: relative;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}

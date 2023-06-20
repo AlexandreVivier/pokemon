@@ -1,0 +1,30 @@
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(192, 34, 34);
+}
+
+.headerContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    background-color: rgb(192, 34, 34);
+}
+
+.logoContainer {
+    width:70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContent img {
+    width: 60%;
+    object-fit: cover;
+}
