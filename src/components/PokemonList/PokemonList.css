@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+ul {
+    position: absolute;
+    top: 240px;
+    list-style: none;
+    width: 100%;
+    max-width: 800px;
+}
+
+li {
+
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(red 50%, white 50%);
+    border: 1px solid cornsilk;
+    cursor: pointer;
+    justify-content: center;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+    box-sizing: content-box;
+    transition: 0.3s;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+
+.pagination__link--active {
+    background: linear-gradient(red 50%, white 50%);
+    border: 1px solid cornsilk;
+    box-shadow: 0px 0px 10px rgb(175, 175, 175);
+    color: #ffcb05;
+    animation: spin 1.5s infinite linear;
+    font-size: larger;
+}
+
+li a {
+    position: relative;
+    top: 25%;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+li:hover {
+
+    animation: spin 1.5s infinite linear;
+}
+
+
+
+.previous,
+.next {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100px;
+    border-radius: 5%;
+    background: #2b73b9;
+    /* box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523); */
+    color: #ffcb05;
+    text-align: center;
+}
+
+
+.next:hover {
+    animation: unset;
+}
+
+.previous:hover {
+    animation: unset;
+}
+
+.pagination {
+
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+}
+
+.pagination a {
+    font-size: 1.3em;
+}
+
+.previous a,
+.next a {
+    background: none;
+}
+
+a {
+    font-family: 'VT323', monospace;
+    font-size: 2em;
+
+}

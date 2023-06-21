@@ -3,7 +3,8 @@
     justify-content: center;
     width: 100vw;
     height: 200px;
-    background-color: rgb(192, 34, 34);
+    background: linear-gradient(rgb(214, 74, 74), #c02222);
+    border-bottom: 2px solid #ebaaaa;
 }
 
 .headerContent {
@@ -13,11 +14,12 @@
     width: 100%;
     max-width: 1440px;
     height: 100%;
-    background-color: rgb(192, 34, 34);
+    background: linear-gradient(rgb(214, 74, 74), #c02222);
+
 }
 
 .logoContainer {
-    width:70%;
+    width: 70%;
     height: 100%;
     display: flex;
     justify-content: center;
