@@ -1,24 +1,34 @@
+a {
+  text-decoration: none;
+}
+
 .card {
   position: relative;
   display: flex;
   justify-content: center;
   width: 190px;
   height: 254px;
-  background-color: #3678b9;
+  background: linear-gradient(#2b73b9, #21386e);
   border-radius: 8px;
   z-index: 1;
   margin-bottom: 20px;
   cursor: pointer;
   box-sizing: content-box ;
   transition: 0.3s;
+  border: 3px solid #4180bf;
+  transition: 0.2s;
 }
 
 .card:hover {
+  background: linear-gradient(#71aeeb, #21386e);
   transform: scale(1.1);
 }
 
+
+
 .cardContent {
   text-align: center;
+
 }
 
 .cardContent img {
@@ -30,6 +40,12 @@
 .cardContent h3{
 position: relative;
 top: 5px;
+font-size: 28px;
+-webkit-text-stroke: 1px #2A6FB4;
+color: #ffcb05;
+text-decoration: none;
+
+/* font-family: 'VT323', monospace; */
 }
 
 .tools {
@@ -49,18 +65,6 @@ top: 5px;
   height: 10px;
   padding: 1px;
   border-radius: 50%;
-}
-
-.red {
-  background-color: #ff605c;
-}
-
-.yellow {
-  background-color: #ffbd44;
-}
-
-.green {
-  background-color: #00ca4e;
 }
 
 .types {
