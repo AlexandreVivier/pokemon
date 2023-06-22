@@ -1,23 +1,20 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice, createSelector } from '@reduxjs/toolkit'
 
 export const pokemonSlice = createSlice({
-    name: 'pokemons',
-    initialState: {
-        data: [],
-        
+  name: 'pokemons',
+  initialState: { data: [], pokemonsDetail: [] },
+
+  reducers: {
+    initPokemons: (state, action) => {
+      state.data = action.payload
     },
-
-    reducers: {
-        initPokemons: (state, action) => {
-            console.log(action);
-           state.data = action.payload
-
-        }
+    addPokemon: (state, action) => {
+      state.pokemonsDetail.push(action.payload)
     }
+  }
 })
 
-// this is for dispatch
-export const { initPokemons } = pokemonSlice.actions
+export const getPokemon = createSelector((state) => state)
 
-// this is for configureStore
+export const { initPokemons, addPokemon } = pokemonSlice.actions
 export default pokemonSlice.reducer

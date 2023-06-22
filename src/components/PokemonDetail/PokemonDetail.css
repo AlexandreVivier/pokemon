@@ -1,0 +1,27 @@
+/* .containerDetail {
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+} */
+
+.cardContainer {
+    display: flex;
+    margin: 30px auto;
+    width: 1000px;
+    height: 500px;
+    background: linear-gradient(#2b73b9, #21386e);
+    border: 3px solid #4180bf;
+}
+
+.leftCard {
+    width: 50%;
+    object-fit: cover;
+    background-color: aqua;
+}
+
+.rightCard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    background-color: #21386e;
+}
