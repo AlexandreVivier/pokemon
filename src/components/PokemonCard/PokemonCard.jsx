@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function PokemonCard({ pokemonImg, pokemonName, pokemonTypes, pokemonId }) {
   return (
     <>
-      <Link to={`/pokemons/${pokemonId}`} target="_blank" rel="noopener noreferrer">
+      <Link to={`/pokemon/${pokemonId}`} target="_blank" rel="noopener noreferrer">
         <div className="card" key={pokemonName}>
           <div className="cardContent">
             <img src={pokemonImg} alt={pokemonName} />
