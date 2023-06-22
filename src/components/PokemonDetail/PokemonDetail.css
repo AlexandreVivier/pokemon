@@ -11,17 +11,76 @@
     height: 500px;
     background: linear-gradient(#2b73b9, #21386e);
     border: 3px solid #4180bf;
+    border-radius: 10px;
+}
+
+.imgContainer {
+    position: absolute;
+    overflow: hidden;
+
 }
 
 .leftCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     object-fit: cover;
-    background-color: aqua;
+    display: flex;
 }
 
 .rightCard {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     width: 50%;
-    background-color: #21386e;
+    /* background-color: #21386e; */
+}
+
+.imgContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70%;
+    background: linear-gradient(#ffffff44, #5a5a5ab4);
+    border: 3px solid #bbbbbb;
+
+
+}
+
+.types {
+    position: unset;
+}
+
+.image {
+    z-index: 2;
+    object-fit: cover;
+}
+
+.imageShadow {
+
+    filter: contrast(0%) blur(5px) brightness(0.25) opacity(50%);
+    position: absolute;
+    top: 70px;
+    left: 45px;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.text {
+    -webkit-text-stroke: 1px #000000;
+    color: #ffcb05;
+    text-decoration: none;
+
+}
+
+.pkmnHP {
+    font-size: 3em;
+    -webkit-text-stroke: 1px #000000;
+    color: #ffcb05;
+    text-decoration: none;
+    font-family: 'VT323', monospace;
 }

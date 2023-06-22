@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import Header from './components/Header/Header'
 import Home from './pages/Home/Home'
-import PokemonDetail from './components/PokemonDetail/PokemonDetail'
+import Detail from './pages/Detail/Detail'
 import { Provider } from 'react-redux'
 import store from './store'
 import { useDispatch } from 'react-redux'
@@ -26,7 +26,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/pokemon/:slug" element={<PokemonDetail />} />
+        <Route path="/pokemon/:slug" element={<Detail />} />
       </Routes >
     </Provider>
   )
