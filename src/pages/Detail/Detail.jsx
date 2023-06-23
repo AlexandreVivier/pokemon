@@ -1,4 +1,6 @@
+// Component
 import PokemonDetail from '../../components/PokemonDetail/PokemonDetail'
+
 function Home() {
   return (
     <div className="homeContainer">

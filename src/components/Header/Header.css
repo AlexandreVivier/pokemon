@@ -8,6 +8,7 @@
 }
 
 .headerContent {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +16,46 @@
     max-width: 1440px;
     height: 100%;
     background: linear-gradient(rgb(214, 74, 74), #c02222);
+}
 
+.homeButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    width: 150px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5%;
+    background: #2b73b9;
+    color: #ffcb05;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1em;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+    font-family: 'VT323', monospace; ;
+}
+
+.teamButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    width: 150px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5%;
+    background: #2b73b9;
+    color: #ffcb05;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1em;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+    font-family: 'VT323', monospace; ;
 }
 
 .logoContainer {
@@ -29,4 +69,26 @@
 .headerContent img {
     width: 60%;
     object-fit: cover;
+}
+
+.button {
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5%;
+    background: #2b73b9;
+    color: #ffcb05;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1em;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
+    font-family: 'VT323', monospace; ;
+}
+
+.button:hover {
+    box-shadow: none;
+    background: linear-gradient(#89bcf0, #2b73b9);
+    transition: 0.2s ease;
 }

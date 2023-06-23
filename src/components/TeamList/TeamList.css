@@ -1,0 +1,29 @@
+.TeamListContainer {
+    position: absolute;
+    top: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw
+}
+
+.titleTeam {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.PokemonTeamList {
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 1440px;
+}

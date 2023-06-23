@@ -1,5 +1,11 @@
-import "./Header.css"
+
+import { Link } from 'react-router-dom'
+
+// Assets
 import PokemonLogo from "../../assets/pokemonLogo.png"
+
+// CSS
+import "./Header.css"
 
 const Header = () => {
   return (
@@ -8,9 +14,10 @@ const Header = () => {
         <div className="logoContainer">
           <img src={PokemonLogo} alt="logo pokemon" />
         </div>
-      </div>
-
+        <Link to={'/'}> <button className="homeButton button">Home</button> </Link>
+        <Link to={'/team'}> <button className="teamButton button">My team</button></Link>
     </div>
+    </div >
   )
 }
 
