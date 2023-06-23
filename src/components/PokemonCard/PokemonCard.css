@@ -24,11 +24,8 @@ a {
   transform: scale(1.1);
 }
 
-
-
 .cardContent {
   text-align: center;
-
 }
 
 .cardContent img {
@@ -73,4 +70,3 @@ text-decoration: none;
   gap: 10px;
   display: flex;
 }
-

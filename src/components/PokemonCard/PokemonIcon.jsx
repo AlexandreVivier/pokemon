@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+
+// Image
 import bug from '../../assets/icons/bug.svg'
 import dark from '../../assets/icons/dark.svg'
 import dragon from '../../assets/icons/dragon.svg'

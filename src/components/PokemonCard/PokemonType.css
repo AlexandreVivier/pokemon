@@ -3,7 +3,6 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    
 }
 
 .shadow-pkm {
@@ -12,13 +11,9 @@
     top: 5px;
     left: 54px;
     z-index: -3;
-
-
 }
 
 /* TYPES DE POKEMONS : */
-
-
 .electric {
     background-color: yellow;
     width: 50px;
@@ -26,8 +21,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .electric img {
@@ -36,7 +30,6 @@
     right: 1px;
     width: 35px;
     height: 35px;
-
 }
 
 .fire {
@@ -45,8 +38,7 @@
     height: 50px;
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
 }
 
@@ -65,8 +57,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .grass img {
@@ -84,9 +75,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-  
-
+    box-sizing: content-box ;
 }
 
 .water img {
@@ -95,7 +84,6 @@
     /* right: 1px; */
     width: 35px;
     height: 35px;
-    
 }
 
 .rock {
@@ -105,8 +93,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .rock img {
@@ -124,8 +111,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .ground img {
@@ -143,8 +129,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .ice img {
@@ -162,8 +147,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .flying img {
@@ -181,14 +165,12 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .bug img {
     position: relative;
     bottom: 13px;
-    /* right: 1px; */
     width: 35px;
     height: 35px;
 }
@@ -200,8 +182,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .fighting img {
@@ -219,8 +200,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .ghost img {
@@ -238,8 +218,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .poison img {
@@ -257,14 +236,12 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .psychic img {
     position: relative;
     bottom: 13px;
-    /* right: 1px; */
     width: 35px;
     height: 35px;
 }
@@ -276,8 +253,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .dragon img {
@@ -296,8 +272,7 @@
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
     background: rgb(125, 124, 141);
     background: linear-gradient(90deg, rgba(125, 124, 141, 1) 23%, rgba(232, 232, 248, 1) 41%, rgba(124, 135, 137, 1) 70%);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .steel img {
@@ -315,8 +290,7 @@
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
     background-color: black;
     border-radius: 50%;
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .dark img {
@@ -334,8 +308,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .fairy img {
@@ -353,8 +326,7 @@
     border-radius: 50%;
     border: 2px solid rgb(226, 217, 217);
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.523);
-  box-sizing: content-box ;
-
+    box-sizing: content-box ;
 }
 
 .normal img {

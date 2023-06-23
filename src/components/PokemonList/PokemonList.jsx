@@ -1,8 +1,12 @@
 import { useState } from 'react'
 import ReactPaginate from 'react-paginate'
-import './PokemonList.css'
-import PokemonCard from '../PokemonCard/PokemonCard'
 import { useSelector } from 'react-redux'
+
+// Component
+import PokemonCard from '../PokemonCard/PokemonCard'
+
+// CSS
+import './PokemonList.css'
 
 function Paginate() {
   const pokemons = useSelector((state) => state.pokemons.data)
@@ -14,7 +18,6 @@ function Paginate() {
     .map((pokemon) => <PokemonCard key={pokemon.name} pokemonImg={pokemon.sprites.other.dream_world.front_default} pokemonName={pokemon.name} pokemonTypes={pokemon.types} pokemonId={pokemon.id} />)
   const pageCount = Math.ceil(pokemons.length / PER_PAGE)
 
-  // Change page
   function handlePageClick({ selected: selectedPage }) {
     setCurrentPage(selectedPage)
   }
@@ -26,7 +29,6 @@ function Paginate() {
         nextLabel={"Next →"}
         pageCount={pageCount}
         onPageChange={handlePageClick}
-
         containerClassName={"pagination"}
         previousLinkClassName={"previous"}
         nextLinkClassName={"next"}

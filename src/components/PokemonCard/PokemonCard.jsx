@@ -1,7 +1,11 @@
+import { Link } from 'react-router-dom'
+
+// Component
+import PokemonIcon from './PokemonIcon'
+
+// CSS
 import './PokemonCard.css'
 import './PokemonType.css'
-import PokemonIcon from './PokemonIcon'
-import { Link } from 'react-router-dom'
 
 // eslint-disable-next-line react/prop-types
 function PokemonCard({ pokemonImg, pokemonName, pokemonTypes, pokemonId }) {
@@ -20,7 +24,6 @@ function PokemonCard({ pokemonImg, pokemonName, pokemonTypes, pokemonId }) {
               )}
             </div>
           </div>
-
         </div>
       </Link>
     </>

@@ -1,13 +1,18 @@
-import { Route, Routes } from 'react-router-dom'
-import Header from './components/Header/Header'
-import Home from './pages/Home/Home'
-import Detail from './pages/Detail/Detail'
-import { Provider } from 'react-redux'
-import store from './store'
-import { useDispatch } from 'react-redux'
 import { useEffect } from 'react'
+import { Route, Routes } from 'react-router-dom'
+import { Provider,useDispatch } from 'react-redux'
+
+// Store
+import store from './store'
 import { initPokemons } from './features/pokemon/pokemonSlice'
 
+// Pages
+import Team from './pages/Team/Team'
+import Home from './pages/Home/Home'
+import Detail from './pages/Detail/Detail'
+
+// Component
+import Header from './components/Header/Header'
 
 function App() {
   const dispatch = useDispatch()
@@ -26,6 +31,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/team" element={<Team />} />
         <Route path="/pokemon/:slug" element={<Detail />} />
       </Routes >
     </Provider>
