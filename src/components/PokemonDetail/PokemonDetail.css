@@ -195,7 +195,6 @@ gap: 10px;
     transition: 0.2s ease-in;
 }
 
-.detailsType>img{
-    top: 6px;
-    left: 7px;
-}
+/* .detailsType img{
+position: absolute;
+} */
